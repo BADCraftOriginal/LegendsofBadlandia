@@ -36,12 +36,10 @@ def intro():
     time.sleep(2)
     print("Monk Owen - and a fine",gensel,"you are, too!")
     time.sleep(1.75)
-    print("            I have 3 roles That suit your criteria.")
+    print("            I have 2 roles That suit your criteria.")
     print("            Chose wisely, you cant change this later!")
     time.sleep(2)
     print("1 - Thief")
-    time.sleep(0.5)
-    print("2 - Medic")
     time.sleep(0.5)
     print("3 - Warrior")
     time.sleep(1)
@@ -55,13 +53,6 @@ def intro():
         Thiefintro()
     
     elif rolesel == "2":
-        #Medic
-        time.sleep(0.5)
-        print("Monk Owen - You will be a fine healer, nobleman on the front line..")
-        time.sleep(2)
-        Medicintro()
-
-    elif rolesel == "3":
         #Warrior
         time.sleep(0.5)
         print("Monk Owen - The most courageous of routes to choose.. Good on you,",name,"!")
